@@ -13,6 +13,8 @@ import Pricing from './pages/Pricing';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignIn from './pages/SignIn';
 import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
+
 
 
 export default function App() {
@@ -31,6 +33,7 @@ export default function App() {
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Routes>
     </Router>
   );

@@ -23,6 +23,9 @@ function Navbar() {
         <li><Link to="/reminders" onClick={toggleMenu}>Reminders</Link></li>
         <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
         <li><Link to="/Pricing" onClick={toggleMenu}>Pricing</Link></li>
+        {/* <li><Link to="/SignIn" onClick={toggleMenu}>SignIn</Link></li> */}
+        <li><Link to="/Login" onClick={toggleMenu}>Login</Link></li>
+        {/* <li><Link to="/ForgotPassword" onClick={toggleMenu}>ForgotPassword</Link></li> */}
       </ul>
     </nav>
   );
